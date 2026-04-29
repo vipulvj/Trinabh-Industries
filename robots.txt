@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://trinabhindustries.co.in/sitemap.xml
