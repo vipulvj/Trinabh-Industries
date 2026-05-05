@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- MAIN PAGES -->
+  <url><loc>https://trinabhindustries.co.in/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-kitchens</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-wardrobes</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-furniture</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/study-units</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/tv-units</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/pooja-units</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- LOCATION PAGES -->
+  <url><loc>https://trinabhindustries.co.in/office-interior-ghaziabad</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-noida</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-gurgaon</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-indirapuram</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-connaught-place</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- PLANNED LOCATION PAGES (create these next) -->
+  <url><loc>https://trinabhindustries.co.in/modular-kitchen-noida</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-vasundhara</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-vaishali</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-raj-nagar</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-greater-noida</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-south-delhi</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-faridabad</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- BLOG -->
+  <url><loc>https://trinabhindustries.co.in/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-interior-cost-delhi-ncr</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/modular-vs-carpenter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-setup-cost-noida-gurgaon</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-design-trends-india</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/benefits-modular-workstations</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
