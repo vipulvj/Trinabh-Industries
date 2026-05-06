@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- MAIN PAGES -->
   <url><loc>https://trinabhindustries.co.in/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://trinabhindustries.co.in/about</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/founder</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://trinabhindustries.co.in/modular-kitchens</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://trinabhindustries.co.in/modular-wardrobes</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://trinabhindustries.co.in/office-furniture</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
