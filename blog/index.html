@@ -133,8 +133,39 @@ body.light .theme-btn{background:#E0D9CE;color:#1A1A18}
 <meta property="og:image:height" content="630"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://trinabhindustries.co.in/images/hero.jpg"/>
+<style>*:focus-visible{outline:2px solid #e8c547;outline-offset:3px;border-radius:3px}button:focus-visible,a:focus-visible{outline:2px solid #e8c547}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Trinabh Industries — Interior Design & Furniture Knowledge Centre",
+  "description": "Expert articles on modular kitchens, wardrobes, office interiors and furniture design for Delhi NCR homes and offices.",
+  "url": "https://trinabhindustries.co.in/blog",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Trinabh Industries",
+    "url": "https://trinabhindustries.co.in",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://trinabhindustries.co.in/images/logo.png"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://trinabhindustries.co.in/"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://trinabhindustries.co.in/blog"}
+  ]
+}
+</script>
 </head>
+<style>.skip-link{position:absolute;top:-40px;left:0;background:#e8c547;color:#000;padding:8px 16px;z-index:99999;font-weight:700;font-size:14px;border-radius:0 0 6px 0;transition:top 0.2s}.skip-link:focus{top:0}</style>
 <body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
 <button class="theme-btn" id="themeBtn">☀️</button>
 <a class="wa-float" href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer">💬</a>
 <div class="mobile-menu" id="mm">
@@ -146,8 +177,8 @@ body.light .theme-btn{background:#E0D9CE;color:#1A1A18}
   <a href="/blog" onclick="closeMM()">Blog</a>
   <a href="/#contact" onclick="closeMM()">Contact</a>
 </div>
-<nav id="nav">
-  <a href="/" class="nav-logo"><img loading="lazy" src="/images/logo.png" alt="Trinabh Industries"/></a>
+<nav role="navigation" aria-label="Main navigation" id="nav">
+  <a href="/" class="nav-logo"><img loading="lazy" src="/images/logo.png" alt="Trinabh Industries" width="200" height="60"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li><li><a href="/about">About</a></li><li style="display:none"><a</li>
     <li><a href="/modular-kitchens">Kitchens</a></li>
@@ -157,13 +188,13 @@ body.light .theme-btn{background:#E0D9CE;color:#1A1A18}
     <li><a href="/#contact">Contact</a></li>
   </ul>
   <div class="nav-right">
-    <a class="nav-phone" href="tel:7701859856">📞 77018 59856</a>
+    <a class="nav-phone" href="tel:7701859856" aria-label="Call us: 77018 59856">📞 77018 59856</a>
     <button class="nav-cta" onclick="location.href='/#contact'">Get Quote</button>
     <button class="ham" onclick="openMM()"><span></span><span></span><span></span></button>
   </div>
 </nav>
 <section class="ph" style="min-height:35vh">
-  <div class="ph-bg"><img loading="lazy" src="/images/office-1.jpg" alt="Trinabh Industries Blog"/></div>
+  <div class="ph-bg"><img loading="lazy" src="/images/office-1.jpg" alt="Trinabh Industries Blog" width="800" height="600"/></div>
   <div class="ph-content">
     <div class="breadcrumb"><a href="/">Home</a> › <span>Blog</span></div>
     <h1 class="ph-title">Knowledge <em>Centre</em></h1>
@@ -221,7 +252,7 @@ body.light .theme-btn{background:#E0D9CE;color:#1A1A18}
       </div>
       <div style="display:flex;flex-direction:column;gap:10px">
         <a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer" style="background:var(--dark);color:var(--cream);padding:12px 20px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;text-align:center">💬 WhatsApp Us</a>
-        <a href="tel:7701859856" style="border:1px solid var(--dark);color:var(--dark);padding:11px 20px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;text-align:center">📞 77018 59856</a>
+        <a href="tel:7701859856" aria-label="Call us: 77018 59856" style="border:1px solid var(--dark);color:var(--dark);padding:11px 20px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;text-align:center">📞 77018 59856</a>
       </div>
     </div>
     
@@ -231,7 +262,7 @@ body.light .theme-btn{background:#E0D9CE;color:#1A1A18}
 <footer>
   <div class="footer-top">
     <div>
-      <div class="flogo"><img src="/images/logo.png" loading="lazy" alt="Trinabh Industries"/></div>
+      <div class="flogo"><img src="/images/logo.png" loading="lazy" alt="Trinabh Industries" width="200" height="60"/></div>
       <p class="ftagline">Premium modular furniture manufacturer in Sahibabad, Ghaziabad. Serving all of Delhi NCR.</p>
     </div>
     <div class="fcol"><h4>Products</h4><ul>
@@ -247,8 +278,8 @@ body.light .theme-btn{background:#E0D9CE;color:#1A1A18}
       <li><a href="/modular-furniture-indirapuram">Indirapuram</a></li>
     </ul></div>
     <div class="fcol"><h4>Connect</h4><ul>
-      <li><a href="tel:7701859856">📞 77018 59856</a></li>
-      <li><a href="tel:9810077098">📞 +91 98100 77098</a></li>
+      <li><a href="tel:7701859856" aria-label="Call us: 77018 59856">📞 77018 59856</a></li>
+      <li><a href="tel:9810077098" aria-label="Call corporate: 98100 77098">📞 +91 98100 77098</a></li>
       <li><a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a></li>
       <li><a href="mailto:support@trinabhindustries.co.in">✉️ Email</a></li>
     </ul></div>
