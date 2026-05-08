@@ -488,13 +488,20 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": [
+    "LocalBusiness",
+    "FurnitureStore",
+    "HomeGoodsStore"
+  ],
   "@id": "https://trinabhindustries.co.in",
   "name": "Trinabh Industries",
   "alternateName": "Trinabh Industries Modular Furniture and Home Interiors",
   "description": "Premium modular furniture manufacturer and interior design firm in Sahibabad, Ghaziabad. Factory-direct modular kitchens, wardrobes, walk-in closets, office furniture and complete turnkey office interiors. Serving all of Delhi NCR including Noida, Delhi, Gurgaon, Faridabad, Indirapuram, Vasundhara, Vaishali, Raj Nagar, Greater Noida and beyond.",
   "url": "https://trinabhindustries.co.in",
-  "telephone": ["+917701859856", "+919810077098"],
+  "telephone": [
+    "+917701859856",
+    "+919810077098"
+  ],
   "email": "support@trinabhindustries.co.in",
   "priceRange": "₹₹",
   "currenciesAccepted": "INR",
@@ -524,35 +531,111 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
       "opens": "09:00",
       "closes": "18:30"
     }
   ],
   "areaServed": [
-    {"@type": "City", "name": "Ghaziabad"},
-    {"@type": "City", "name": "Noida"},
-    {"@type": "City", "name": "Delhi"},
-    {"@type": "City", "name": "Gurugram"},
-    {"@type": "City", "name": "Faridabad"},
-    {"@type": "City", "name": "Greater Noida"},
-    {"@type": "Place", "name": "Indirapuram"},
-    {"@type": "Place", "name": "Vasundhara"},
-    {"@type": "Place", "name": "Sahibabad"},
-    {"@type": "Place", "name": "Vaishali"},
-    {"@type": "Place", "name": "Kaushambi"},
-    {"@type": "Place", "name": "Raj Nagar"},
-    {"@type": "Place", "name": "Raj Nagar Extension"},
-    {"@type": "Place", "name": "Crossing Republik"},
-    {"@type": "Place", "name": "Noida Sector 62"},
-    {"@type": "Place", "name": "Noida Sector 74"},
-    {"@type": "Place", "name": "Noida Sector 76"},
-    {"@type": "Place", "name": "Noida Extension"},
-    {"@type": "Place", "name": "South Delhi"},
-    {"@type": "Place", "name": "Chhatarpur"},
-    {"@type": "Place", "name": "Greater Kailash"},
-    {"@type": "Place", "name": "Connaught Place"},
-    {"@type": "Place", "name": "South Extension"}
+    {
+      "@type": "City",
+      "name": "Ghaziabad"
+    },
+    {
+      "@type": "City",
+      "name": "Noida"
+    },
+    {
+      "@type": "City",
+      "name": "Delhi"
+    },
+    {
+      "@type": "City",
+      "name": "Gurugram"
+    },
+    {
+      "@type": "City",
+      "name": "Faridabad"
+    },
+    {
+      "@type": "City",
+      "name": "Greater Noida"
+    },
+    {
+      "@type": "Place",
+      "name": "Indirapuram"
+    },
+    {
+      "@type": "Place",
+      "name": "Vasundhara"
+    },
+    {
+      "@type": "Place",
+      "name": "Sahibabad"
+    },
+    {
+      "@type": "Place",
+      "name": "Vaishali"
+    },
+    {
+      "@type": "Place",
+      "name": "Kaushambi"
+    },
+    {
+      "@type": "Place",
+      "name": "Raj Nagar"
+    },
+    {
+      "@type": "Place",
+      "name": "Raj Nagar Extension"
+    },
+    {
+      "@type": "Place",
+      "name": "Crossing Republik"
+    },
+    {
+      "@type": "Place",
+      "name": "Noida Sector 62"
+    },
+    {
+      "@type": "Place",
+      "name": "Noida Sector 74"
+    },
+    {
+      "@type": "Place",
+      "name": "Noida Sector 76"
+    },
+    {
+      "@type": "Place",
+      "name": "Noida Extension"
+    },
+    {
+      "@type": "Place",
+      "name": "South Delhi"
+    },
+    {
+      "@type": "Place",
+      "name": "Chhatarpur"
+    },
+    {
+      "@type": "Place",
+      "name": "Greater Kailash"
+    },
+    {
+      "@type": "Place",
+      "name": "Connaught Place"
+    },
+    {
+      "@type": "Place",
+      "name": "South Extension"
+    }
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -564,7 +647,55 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
   "sameAs": [
     "https://www.google.com/maps?cid=770185985618101",
     "https://www.instagram.com/trinabh_industries"
-  ]
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Modular Furniture Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Modular Kitchens"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Modular Wardrobes"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Office Furniture"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Study Units"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "TV Units"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Pooja Units"
+        }
+      }
+    ]
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -892,7 +1023,11 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
 <section class="gallery-sec" id="gallery">
   <div class="gallery-head">
     <div><div class="stag">Portfolio</div><h2 class="sec-h reveal">Every Project,<br><em>Perfected</em></h2></div>
-    <a href="https://www.instagram.com/trinabh_industries" target="_blank" rel="noopener noreferrer" class="btn-outline">📸 Follow on Instagram</a>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+    <a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer" class="btn-outline">📸 Instagram</a>
+    <a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer" class="btn-outline">▶️ YouTube</a>
+    <a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer" class="btn-outline">📘 Facebook</a>
+  </div>
   </div>
   <div class="gallery-grid">
     <div class="fg-item tall reveal"><img loading="lazy" src="/images/kitchen-1.jpg" alt="Modular kitchen Ghaziabad" width="800" height="600"/></div>
@@ -1164,7 +1299,7 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
       <div>
         <div class="rv-stars-big">★★★★★</div>
         <div class="rv-count">12+ Google Reviews</div>
-        <a href="https://www.google.com/maps/search/Trinabh+Industries+Ghaziabad+Modular+Furniture" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--gold);text-decoration:none;letter-spacing:1px">View on Google →</a>
+        <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--gold);text-decoration:none;letter-spacing:1px">View on Google →</a>
       </div>
     </div>
   </div>
@@ -1436,8 +1571,8 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
     </div></div>
   </div>
   <div class="rv-cta">
-    <a href="https://www.google.com/maps/search/Trinabh+Industries+Ghaziabad+Modular+Furniture" target="_blank" rel="noopener noreferrer" class="btn-gold">⭐ See All Reviews on Google</a>
-    <a href="https://www.google.com/maps/search/Trinabh+Industries+Ghaziabad+Modular+Furniture" target="_blank" rel="noopener noreferrer" style="border:1px solid var(--gold);color:var(--gold);padding:13px 24px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:8px;transition:all .3s" onmouseover="this.style.background='var(--gold)';this.style.color='var(--dark)'" onmouseout="this.style.background='transparent';this.style.color='var(--gold)'">✍️ Write a Review</a>
+    <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" class="btn-gold">⭐ See All Reviews on Google</a>
+    <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="border:1px solid var(--gold);color:var(--gold);padding:13px 24px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:8px;transition:all .3s" onmouseover="this.style.background='var(--gold)';this.style.color='var(--dark)'" onmouseout="this.style.background='transparent';this.style.color='var(--gold)'">✍️ Write a Review</a>
   </div>
 </section>
 
@@ -1559,13 +1694,16 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
         <div class="ci"><div class="ci-icon">✉️</div><div><div class="ci-l">Email</div><div class="ci-v"><a href="mailto:support@trinabhindustries.co.in">support@trinabhindustries.co.in</a></div></div></div>
         <div class="ci"><div class="ci-icon">💬</div><div><div class="ci-l">WhatsApp</div><div class="ci-v"><a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer">Chat Now on WhatsApp →</a></div></div></div>
         <div class="ci"><div class="ci-icon">📸</div><div><div class="ci-l">Instagram</div><div class="ci-v"><a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer">@trinabh_industries →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">▶️</div><div><div class="ci-l">YouTube</div><div class="ci-v"><a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer">@trinabhindustries →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">📘</div><div><div class="ci-l">Facebook</div><div class="ci-v"><a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer">Trinabh Industries →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">⭐</div><div><div class="ci-l">Google Business</div><div class="ci-v"><a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer">View our profile →</a></div></div></div>
         <div class="ci"><div class="ci-icon">📍</div><div><div class="ci-l">Factory &amp; Showroom</div><div class="ci-v"><a href="https://maps.app.goo.gl/fkuCQEtHdhbRFKzw6" target="_blank" rel="noopener noreferrer">A 16/23, Site IV, Sahibabad Industrial Area, Ghaziabad →</a></div></div></div>
         <div class="ci"><div class="ci-icon">🕐</div><div><div class="ci-l">Working Hours</div><div class="ci-v">Mon–Sat: 9:00 AM – 6:00 PM</div></div></div>
         <div class="ci"><div class="ci-icon">🏛️</div><div><div class="ci-l">Design Studio</div><div class="ci-v"><a href="https://studioantarit.com" target="_blank" rel="noopener noreferrer" style="color:var(--gold);text-decoration:none">Studio Antarit — Design &amp; Vastu Unit →</a></div></div></div>
       </div>
       <div style="margin-top:24px;padding:18px;background:rgba(184,146,42,.08);border-left:3px solid var(--gold)">
         <p style="font-size:13px;color:var(--cream);margin-bottom:10px">⭐ Happy with our work? Please leave us a Google review!</p>
-        <a href="https://www.google.com/maps/search/Trinabh+Industries+Ghaziabad+Modular+Furniture" target="_blank" rel="noopener noreferrer" style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);text-decoration:none;font-weight:600">Write a Review →</a>
+        <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);text-decoration:none;font-weight:600">Write a Review →</a>
       </div>
     </div>
     <div class="reveal">
@@ -1640,18 +1778,23 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
       <li><a href="tel:9810077098" aria-label="Call corporate: 98100 77098">📞 +91 98100 77098</a></li>
       <li><a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a></li>
       <li><a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer">📸 Instagram</a></li>
+      <li><a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer">▶️ YouTube</a></li>
+      <li><a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer">📘 Facebook</a></li>
+      <li><a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer">⭐ Google Business</a></li>
       <li><a href="mailto:support@trinabhindustries.co.in">✉️ Email</a></li>
       <li><a href="https://maps.app.goo.gl/fkuCQEtHdhbRFKzw6" target="_blank" rel="noopener noreferrer">📍 Find Us</a></li>
-      <li><a href="https://www.google.com/maps/search/Trinabh+Industries+Ghaziabad+Modular+Furniture" target="_blank" rel="noopener noreferrer">⭐ Google Reviews</a></li>
+      <li><a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer">⭐ Google Reviews</a></li>
     </ul></div>
   </div>
   <div class="footer-bottom">
     <div class="fcopy">© 2026 Trinabh Industries, Ghaziabad. All rights reserved.</div>
     <div style="display:flex;gap:18px">
       <a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Instagram</a>
+      <a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">YouTube</a>
+      <a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Facebook</a>
+      <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Google</a>
       <a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">WhatsApp</a>
-      <a href="https://www.google.com/maps/search/Trinabh+Industries+Ghaziabad+Modular+Furniture" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Google</a>
-    </div>
+      </div>
   </div>
 </footer>
 
