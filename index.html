@@ -1897,20 +1897,13 @@ function sendWA(){
 
   const waText=encodeURIComponent(`🏢 NEW WEBSITE ENQUIRY\n\n👤 Name: ${f} ${ln}\n📱 Phone: ${ph}\n📧 Email: ${em||'Not provided'}\n🛋️ Category: ${cat||'Not specified'}\n📍 City: ${city||'Not provided'}\n\n💬 Details:\n${msg||'No details provided'}\n\n— via trinabhindustries.co.in`);
 
-  // Primary: open WhatsApp
-  const waWin = window.open('https://wa.me/917701859856?text=' + waText, '_blank');
+  // 1. Open WhatsApp immediately (primary channel)
+  window.open('https://wa.me/917701859856?text=' + waText, '_blank');
 
-  // Fallback: if WhatsApp didn't open (blocked, desktop without WA), send via email API
-  setTimeout(() => {
-    if (!waWin || waWin.closed) {
-      sendEmailFallback(f, ln, ph, em, cat, city, msg);
-    }
-  }, 1500);
+  // 2. ALWAYS save to Google Sheets simultaneously (dual ping)
+  saveToSheet(f, ln, ph, em, cat, city, msg);
 
-  // Always send email backup silently so no lead is lost
-  sendEmailFallback(f, ln, ph, em, cat, city, msg);
-
-  // Show confirmation to user regardless
+  // 3. Show confirmation to user
   const btn = document.querySelector('.sbtn');
   const successDiv = document.getElementById('form-success');
   if(btn){
@@ -1925,24 +1918,24 @@ function sendWA(){
   }, 6000);
 }
 
-function sendEmailFallback(f, ln, ph, em, cat, city, msg){
-  // Formspree endpoint — replace FORMSPREE_ID with your actual Formspree form ID
-  // Get a free form at https://formspree.io (takes 2 minutes, no backend needed)
-  const FORMSPREE_ID = 'YOUR_FORMSPREE_ID'; // <-- REPLACE THIS
-  if(FORMSPREE_ID === 'YOUR_FORMSPREE_ID') return; // skip until configured
-  fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+function saveToSheet(f, ln, ph, em, cat, city, msg){
+  // Google Sheets via Apps Script — live endpoint
+  const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzocW-WDrzMzSMtt_-qkhtJ4mBQjUECtUQ0CMV6DVEcmJCpCJTydWWzPd4b9yfebNzT5Q/exec';
+  fetch(SHEET_URL, {
     method: 'POST',
-    headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+    mode: 'no-cors', // required for Google Apps Script cross-origin
+    headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
-      name: `${f} ${ln}`,
-      phone: ph,
-      email: em || 'Not provided',
-      category: cat || 'Not specified',
-      city: city || 'Not provided',
-      message: msg || 'No details',
-      _subject: `New Enquiry from ${f} — ${cat||'General'} — Trinabh Website`
+      firstName: f,
+      lastName:  ln,
+      phone:     ph,
+      email:     em   || 'Not provided',
+      category:  cat  || 'Not specified',
+      city:      city || 'Not provided',
+      message:   msg  || 'No details',
+      source:    'Website Contact Form'
     })
-  }).catch(()=>{}); // silent fail — WA is primary channel
+  }).catch(()=>{});  // silent fail — WA message already delivered
 }
 
 // WA Popup — 8 seconds (fast) OR 50% scroll
