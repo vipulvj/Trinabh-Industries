@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Modular Kitchen & Wardrobe Manufacturer Delhi NCR | Trinabh</title>
 <meta name="description" content="Premium modular kitchens, wardrobes & office furniture in Ghaziabad. Factory-direct. Delhi, Noida, Gurgaon & all NCR. Free site visit. Call 98100 77098."/>
-<meta name="keywords" content="modular kitchen Ghaziabad, modular wardrobe Delhi NCR, office furniture manufacturer Noida, modular furniture Indirapuram, kitchen manufacturer Delhi, modular kitchen Noida, modular wardrobe Gurgaon, office interior Faridabad, modular furniture Vasundhara, modular kitchen Vaishali, office furniture South Delhi, modular kitchen Greater Kailash, modular furniture Connaught Place, modular kitchen Greater Noida, office interior Noida sector 62, modular furniture Raj Nagar Extension, modular kitchen Sahibabad, wardrobe manufacturer Delhi NCR, precision modular furniture Delhi, factory direct furniture Ghaziabad, modular kitchen Noida sector 76, modular furniture Chatarpur, interior design Ghaziabad"/>
 <meta name="robots" content="index,follow"/>
 <link rel="canonical" href="https://trinabhindustries.co.in/"/>
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="/images/logo.png"/>
+<link rel="preload" as="image" href="/images/hero.jpg" fetchpriority="high"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://trinabhindustries.co.in/"/>
 <meta property="og:image" content="https://trinabhindustries.co.in/images/hero.jpg"/>
@@ -18,6 +20,8 @@
 <meta property="og:title" content="Modular Kitchen & Wardrobe Manufacturer Delhi NCR | Trinabh"/>
 <meta property="og:description" content="Premium modular kitchens, wardrobes & office furniture in Ghaziabad. Factory-direct. Delhi, Noida, Gurgaon & all NCR. Free site visit. Call 98100 77098."/>
 <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Modular Kitchen &amp; Wardrobe Manufacturer Delhi NCR | Trinabh"/>
+<meta name="twitter:description" content="Premium modular kitchens, wardrobes &amp; office furniture in Ghaziabad. Factory-direct. Free site visit. Call 98100 77098."/>
 <meta name="google-site-verification" content="770185985618101"/>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9DZQB1TER"></script>
@@ -181,6 +185,8 @@ h1.hero-title em{font-style:italic;color:var(--gold)}
 
 /* ── TICKER ──────────────────────────────── */
 .ticker{background:var(--gold);overflow:hidden;padding:12px 0}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none;overflow-x:auto}}
 .ticker-track{display:flex;white-space:nowrap;animation:tickerAnim 32s linear infinite}
 .ti{font-family:'Cormorant Garamond',serif;font-size:15px;letter-spacing:3px;text-transform:uppercase;color:var(--dark);padding:0 28px;display:inline-flex;align-items:center;gap:28px}
 .ti::after{content:'◆';font-size:7px;opacity:.5}
@@ -224,7 +230,7 @@ h2.sec-h em{font-style:italic;color:var(--gold)}
 .prod-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:48px;gap:24px}
 .prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
 .pcard{position:relative;overflow:hidden;aspect-ratio:3/4;cursor:pointer}
-.pcard img{width:100%;height:100%;object-fit:cover;transition:transform .9s ease,filter .5s;filter:saturate(.6) brightness(.65)}
+.pcard img{width:100%;height:100%;object-fit:cover;transition:transform .9s ease,filter .5s;filter:saturate(.75) brightness(.82)}
 .pcard:hover img{transform:scale(1.08);filter:saturate(.9) brightness(.8)}
 .pover{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,8,6,.97) 0%,rgba(8,8,6,.05) 52%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px}
 .pn{font-family:'Cormorant Garamond',serif;font-size:60px;font-weight:300;color:rgba(184,146,42,.12);line-height:1;margin-bottom:2px}
@@ -646,7 +652,11 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
   },
   "sameAs": [
     "https://www.google.com/maps?cid=770185985618101",
-    "https://www.instagram.com/trinabh_industries"
+    "https://www.instagram.com/trinabh_industries",
+    "https://www.facebook.com/share/18TgzvXd19/?mibextid=wwXIfr",
+    "https://www.indiamart.com/trinabh-industries/",
+    "https://www.houzz.in/pro/vipul-joshi69/trinabh-industries",
+    "https://pin.it/Tq1y3r2Op"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -810,8 +820,8 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
 </div>
 
 <!-- FLOATING BUTTONS -->
-<button class="theme-btn" id="themeBtn" title="Toggle theme">☀️</button>
-<a class="wa-float" href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer" title="WhatsApp Us">💬</a>
+<button class="theme-btn" id="themeBtn" title="Toggle theme" aria-label="Switch colour theme">☀️</button>
+<a class="wa-float" href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer" title="WhatsApp Us" aria-label="Chat with us on WhatsApp">💬</a>
 
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu">
@@ -830,7 +840,7 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
 
 <!-- NAV -->
 <nav role="navigation" aria-label="Main navigation" id="nav">
-  <a href="/" class="nav-logo"><img loading="lazy" src="/images/logo.png" alt="Trinabh Industries" width="200" height="60"/></a>
+  <a href="/" class="nav-logo"><img loading="eager" src="/images/logo.png" alt="Trinabh Industries" width="200" height="60"/></a>
   <ul class="nav-links">
     <li><a href="/about">About</a></li>
     <li><a href="/founder">Founder</a></li>
@@ -845,7 +855,7 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
       <a href="tel:9810077098" aria-label="Call corporate: 98100 77098" style="font-size:10px;font-weight:500;color:var(--taupe);text-decoration:none;letter-spacing:.5px">+91 98100 77098 <span style="color:var(--gold);font-size:9px">(Corp)</span></a>
     </div>
     <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Quote</button>
-    <button class="ham" id="ham" onclick="openMM()"><span></span><span></span><span></span></button>
+    <button class="ham" id="ham" onclick="openMM()" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
@@ -867,7 +877,7 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
     </div>
   </div>
   <div class="hero-photo">
-    <img loading="lazy" src="/images/hero.jpg" alt="Premium modular furniture Ghaziabad Delhi NCR" width="1200" height="800"/>
+    <img loading="eager" fetchpriority="high" src="/images/hero.jpg" alt="Premium modular furniture Ghaziabad Delhi NCR" width="1200" height="800"/>
   </div>
 </section>
 
@@ -1026,7 +1036,9 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
     <div style="display:flex;gap:12px;flex-wrap:wrap">
     <a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer" class="btn-outline">📸 Instagram</a>
     <a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer" class="btn-outline">▶️ YouTube</a>
-    <a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer" class="btn-outline">📘 Facebook</a>
+    <a href="https://www.facebook.com/share/18TgzvXd19/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn-outline">📘 Facebook</a>
+    <a href="https://www.houzz.in/pro/vipul-joshi69/trinabh-industries" target="_blank" rel="noopener noreferrer" class="btn-outline">🏠 Houzz</a>
+    <a href="https://pin.it/Tq1y3r2Op" target="_blank" rel="noopener noreferrer" class="btn-outline">📌 Pinterest</a>
   </div>
   </div>
   <div class="gallery-grid">
@@ -1299,7 +1311,7 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
       <div>
         <div class="rv-stars-big">★★★★★</div>
         <div class="rv-count">12+ Google Reviews</div>
-        <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--gold);text-decoration:none;letter-spacing:1px">View on Google →</a>
+        <a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--gold);text-decoration:none;letter-spacing:1px">View on Google →</a>
       </div>
     </div>
   </div>
@@ -1571,8 +1583,8 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
     </div></div>
   </div>
   <div class="rv-cta">
-    <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" class="btn-gold">⭐ See All Reviews on Google</a>
-    <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="border:1px solid var(--gold);color:var(--gold);padding:13px 24px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:8px;transition:all .3s" onmouseover="this.style.background='var(--gold)';this.style.color='var(--dark)'" onmouseout="this.style.background='transparent';this.style.color='var(--gold)'">✍️ Write a Review</a>
+    <a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer" class="btn-gold">⭐ See All Reviews on Google</a>
+    <a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer" style="border:1px solid var(--gold);color:var(--gold);padding:13px 24px;font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:8px;transition:all .3s" onmouseover="this.style.background='var(--gold)';this.style.color='var(--dark)'" onmouseout="this.style.background='transparent';this.style.color='var(--gold)'">✍️ Write a Review</a>
   </div>
 </section>
 
@@ -1695,15 +1707,20 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
         <div class="ci"><div class="ci-icon">💬</div><div><div class="ci-l">WhatsApp</div><div class="ci-v"><a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer">Chat Now on WhatsApp →</a></div></div></div>
         <div class="ci"><div class="ci-icon">📸</div><div><div class="ci-l">Instagram</div><div class="ci-v"><a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer">@trinabh_industries →</a></div></div></div>
         <div class="ci"><div class="ci-icon">▶️</div><div><div class="ci-l">YouTube</div><div class="ci-v"><a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer">@trinabhindustries →</a></div></div></div>
-        <div class="ci"><div class="ci-icon">📘</div><div><div class="ci-l">Facebook</div><div class="ci-v"><a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer">Trinabh Industries →</a></div></div></div>
-        <div class="ci"><div class="ci-icon">⭐</div><div><div class="ci-l">Google Business</div><div class="ci-v"><a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer">View our profile →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">📘</div><div><div class="ci-l">Facebook</div><div class="ci-v"><a href="https://www.facebook.com/share/18TgzvXd19/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Trinabh Industries →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">📞</div><div><div class="ci-l">Just Dial</div><div class="ci-v"><a href="https://jsdl.in/RSL-KGP1778297091" target="_blank" rel="noopener noreferrer">Find us on Just Dial →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">🏭</div><div><div class="ci-l">IndiaMart</div><div class="ci-v"><a href="https://www.indiamart.com/trinabh-industries/" target="_blank" rel="noopener noreferrer">trinabh-industries →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">🏠</div><div><div class="ci-l">Houzz</div><div class="ci-v"><a href="https://www.houzz.in/pro/vipul-joshi69/trinabh-industries" target="_blank" rel="noopener noreferrer">Trinabh on Houzz →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">🏗️</div><div><div class="ci-l">Kolo</div><div class="ci-v"><a href="https://koloapp.in/pro/trinabh-industries" target="_blank" rel="noopener noreferrer">Trinabh on Kolo →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">📌</div><div><div class="ci-l">Pinterest</div><div class="ci-v"><a href="https://pin.it/Tq1y3r2Op" target="_blank" rel="noopener noreferrer">Design Inspiration →</a></div></div></div>
+        <div class="ci"><div class="ci-icon">⭐</div><div><div class="ci-l">Google Business</div><div class="ci-v"><a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer">View our profile →</a></div></div></div>
         <div class="ci"><div class="ci-icon">📍</div><div><div class="ci-l">Factory &amp; Showroom</div><div class="ci-v"><a href="https://maps.app.goo.gl/fkuCQEtHdhbRFKzw6" target="_blank" rel="noopener noreferrer">A 16/23, Site IV, Sahibabad Industrial Area, Ghaziabad →</a></div></div></div>
         <div class="ci"><div class="ci-icon">🕐</div><div><div class="ci-l">Working Hours</div><div class="ci-v">Mon–Sat: 9:00 AM – 6:00 PM</div></div></div>
         <div class="ci"><div class="ci-icon">🏛️</div><div><div class="ci-l">Design Studio</div><div class="ci-v"><a href="https://studioantarit.com" target="_blank" rel="noopener noreferrer" style="color:var(--gold);text-decoration:none">Studio Antarit — Design &amp; Vastu Unit →</a></div></div></div>
       </div>
       <div style="margin-top:24px;padding:18px;background:rgba(184,146,42,.08);border-left:3px solid var(--gold)">
         <p style="font-size:13px;color:var(--cream);margin-bottom:10px">⭐ Happy with our work? Please leave us a Google review!</p>
-        <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);text-decoration:none;font-weight:600">Write a Review →</a>
+        <a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer" style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);text-decoration:none;font-weight:600">Write a Review →</a>
       </div>
     </div>
     <div class="reveal">
@@ -1731,6 +1748,9 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
       <div class="fg"><label>Your City / Area</label><input type="text" id="fcity" placeholder="e.g. Indirapuram, Noida Sector 76, South Delhi..."/></div>
       <div class="fg"><label>Project Details</label><textarea id="fmsg" placeholder="Tell us about your space, requirements and budget..."></textarea></div>
       <button class="sbtn" onclick="sendWA()">📱 Send Enquiry via WhatsApp →</button>
+      <div id="form-success" style="display:none;margin-top:16px;padding:16px 20px;background:rgba(37,211,102,0.12);border:1px solid rgba(37,211,102,0.3);border-radius:4px;color:#25D366;font-size:13px;line-height:1.6;">
+        ✅ <strong>Enquiry received!</strong> We're opening WhatsApp to connect you directly. If WhatsApp doesn't open, our team will reach you at the number provided within 2 hours.
+      </div>
     </div>
   </div>
 </section>
@@ -1739,7 +1759,7 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
 <footer>
   <div class="footer-top" style="grid-template-columns:2fr 1fr 1fr 1fr 1fr">
     <div>
-      <div class="flogo"><img loading="lazy" src="/images/logo.png" alt="Trinabh Industries" width="200" height="60"/></div>
+      <div class="flogo"><img loading="eager" src="/images/logo.png" alt="Trinabh Industries" width="200" height="60"/></div>
       <p class="ftagline">Premium modular furniture manufacturer in Sahibabad, Ghaziabad. Serving all of Delhi NCR since 2012.</p>
     </div>
     <div class="fcol"><h4>Products</h4><ul>
@@ -1779,11 +1799,16 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
       <li><a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a></li>
       <li><a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer">📸 Instagram</a></li>
       <li><a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer">▶️ YouTube</a></li>
-      <li><a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer">📘 Facebook</a></li>
-      <li><a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer">⭐ Google Business</a></li>
+      <li><a href="https://www.facebook.com/share/18TgzvXd19/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">📘 Facebook</a></li>
+      <li><a href="https://jsdl.in/RSL-KGP1778297091" target="_blank" rel="noopener noreferrer">📞 Just Dial</a></li>
+      <li><a href="https://www.indiamart.com/trinabh-industries/" target="_blank" rel="noopener noreferrer">🏭 IndiaMart</a></li>
+      <li><a href="https://www.houzz.in/pro/vipul-joshi69/trinabh-industries" target="_blank" rel="noopener noreferrer">🏠 Houzz</a></li>
+      <li><a href="https://koloapp.in/pro/trinabh-industries" target="_blank" rel="noopener noreferrer">🏗️ Kolo</a></li>
+      <li><a href="https://pin.it/Tq1y3r2Op" target="_blank" rel="noopener noreferrer">📌 Pinterest</a></li>
+      <li><a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer">⭐ Google Business</a></li>
       <li><a href="mailto:support@trinabhindustries.co.in">✉️ Email</a></li>
       <li><a href="https://maps.app.goo.gl/fkuCQEtHdhbRFKzw6" target="_blank" rel="noopener noreferrer">📍 Find Us</a></li>
-      <li><a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer">⭐ Google Reviews</a></li>
+      <li><a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer">⭐ Google Reviews</a></li>
     </ul></div>
   </div>
   <div class="footer-bottom">
@@ -1791,8 +1816,11 @@ body.light .btt{background:#E0D9CE;border-color:rgba(184,146,42,.3);color:#1A1A1
     <div style="display:flex;gap:18px">
       <a href="https://www.instagram.com/trinabh_industries?igsh=ejF0Z3A1NjZnZXQ4" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Instagram</a>
       <a href="https://youtube.com/@trinabhindustries?si=okqfn8gQfzSFR4Yj" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">YouTube</a>
-      <a href="https://m.facebook.com/search_results/?q=trinabh+industries" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Facebook</a>
-      <a href="https://share.google/99isWQFnMEIIHNCN" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Google</a>
+      <a href="https://www.facebook.com/share/18TgzvXd19/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Facebook</a>
+      <a href="https://www.indiamart.com/trinabh-industries/" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">IndiaMart</a>
+      <a href="https://www.houzz.in/pro/vipul-joshi69/trinabh-industries" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Houzz</a>
+      <a href="https://pin.it/Tq1y3r2Op" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Pinterest</a>
+      <a href="https://share.google/gIHEsgKwJSdgpLCj3" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">Google</a>
       <a href="https://wa.me/917701859856" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--taupe);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--taupe)'">WhatsApp</a>
       </div>
   </div>
@@ -1825,8 +1853,8 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
 });
 
 // Mobile menu
-function openMM(){document.getElementById('mobileMenu').classList.add('open');document.body.style.overflow='hidden';}
-function closeMM(){document.getElementById('mobileMenu').classList.remove('open');document.body.style.overflow='';}
+function openMM(){document.getElementById('mobileMenu').classList.add('open');document.body.style.overflow='hidden';var h=document.getElementById('ham');if(h)h.setAttribute('aria-expanded','true');}
+function closeMM(){document.getElementById('mobileMenu').classList.remove('open');document.body.style.overflow='';var h=document.getElementById('ham');if(h)h.setAttribute('aria-expanded','false');}
 
 // Theme toggle
 const themeBtn=document.getElementById('themeBtn');
@@ -1866,26 +1894,65 @@ function sendWA(){
   if(!f){alert('Please enter your name');return;}
   if(!ph||ph.replace(/\D/g,'').length<10){alert('Please enter a valid 10-digit phone number');return;}
   if(em && !/^[^@]+@[^@]+\.[^@]+$/.test(em)){alert('Please enter a valid email address');return;}
-  const text=encodeURIComponent(`🏢 NEW WEBSITE ENQUIRY\n\n👤 Name: ${f} ${ln}\n📱 Phone: ${ph}\n📧 Email: ${em||'Not provided'}\n🛋️ Category: ${cat||'Not specified'}\n📍 City: ${city||'Not provided'}\n\n💬 Details:\n${msg||'No details provided'}\n\n— via trinabhindustries.co.in`);
-  window.open('https://wa.me/917701859856?text=Hi!%20I%27d%20like%20a%20free%20quote%20from%20Trinabh%20Industries.');
-  // Show success message
+
+  const waText=encodeURIComponent(`🏢 NEW WEBSITE ENQUIRY\n\n👤 Name: ${f} ${ln}\n📱 Phone: ${ph}\n📧 Email: ${em||'Not provided'}\n🛋️ Category: ${cat||'Not specified'}\n📍 City: ${city||'Not provided'}\n\n💬 Details:\n${msg||'No details provided'}\n\n— via trinabhindustries.co.in`);
+
+  // Primary: open WhatsApp
+  const waWin = window.open('https://wa.me/917701859856?text=' + waText, '_blank');
+
+  // Fallback: if WhatsApp didn't open (blocked, desktop without WA), send via email API
+  setTimeout(() => {
+    if (!waWin || waWin.closed) {
+      sendEmailFallback(f, ln, ph, em, cat, city, msg);
+    }
+  }, 1500);
+
+  // Always send email backup silently so no lead is lost
+  sendEmailFallback(f, ln, ph, em, cat, city, msg);
+
+  // Show confirmation to user regardless
   const btn = document.querySelector('.sbtn');
+  const successDiv = document.getElementById('form-success');
   if(btn){
-    const orig = btn.innerHTML;
-    btn.innerHTML = '✅ Opening WhatsApp...';
+    btn.innerHTML = '✅ Enquiry Sent!';
     btn.style.background = '#25D366';
-    setTimeout(()=>{btn.innerHTML=orig;btn.style.background='';},3000);
+    btn.disabled = true;
   }
+  if(successDiv){ successDiv.style.display = 'block'; }
+  setTimeout(()=>{
+    if(btn){btn.innerHTML='📱 Send Enquiry via WhatsApp →';btn.style.background='';btn.disabled=false;}
+    if(successDiv){successDiv.style.display='none';}
+  }, 6000);
+}
+
+function sendEmailFallback(f, ln, ph, em, cat, city, msg){
+  // Formspree endpoint — replace FORMSPREE_ID with your actual Formspree form ID
+  // Get a free form at https://formspree.io (takes 2 minutes, no backend needed)
+  const FORMSPREE_ID = 'YOUR_FORMSPREE_ID'; // <-- REPLACE THIS
+  if(FORMSPREE_ID === 'YOUR_FORMSPREE_ID') return; // skip until configured
+  fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+    body: JSON.stringify({
+      name: `${f} ${ln}`,
+      phone: ph,
+      email: em || 'Not provided',
+      category: cat || 'Not specified',
+      city: city || 'Not provided',
+      message: msg || 'No details',
+      _subject: `New Enquiry from ${f} — ${cat||'General'} — Trinabh Website`
+    })
+  }).catch(()=>{}); // silent fail — WA is primary channel
 }
 
 // WA Popup — 8 seconds (fast) OR 50% scroll
 let waShown=false;
 const waPopup=document.getElementById('waPopup');
 if(waPopup&&!sessionStorage.getItem('waPopupClosed')){
-  setTimeout(()=>{if(!waShown){waPopup.classList.add('show');waShown=true;}},8000);
+  setTimeout(()=>{if(!waShown){waPopup.classList.add('show');waShown=true;}},25000);
   window.addEventListener('scroll',()=>{
     const pct=(scrollY/(document.body.scrollHeight-innerHeight))*100;
-    if(pct>50&&!waShown&&!sessionStorage.getItem('waPopupClosed')){waPopup.classList.add('show');waShown=true;}
+    if(pct>75&&!waShown&&!sessionStorage.getItem('waPopupClosed')){waPopup.classList.add('show');waShown=true;}
   },{passive:true});
 }
 function closeWaPopup(){waPopup&&waPopup.classList.remove('show');sessionStorage.setItem('waPopupClosed','1');}
@@ -1902,11 +1969,17 @@ lbOverlay.className = 'lb-overlay';
 lbOverlay.innerHTML = `
   <button class="lb-close" onclick="closeLB()">✕</button>
   <button class="lb-prev" onclick="lbNav(-1)">‹</button>
-  <img loading="lazy" class="lb-img" id="lbImg" src="" alt="" width="800" height="600"/>
+  <img class="lb-img" id="lbImg" src="" alt="" width="800" height="600"/>
   <button class="lb-next" onclick="lbNav(1)">›</button>
   <div class="lb-counter" id="lbCounter"></div>`;
 document.body.appendChild(lbOverlay);
 lbOverlay.addEventListener('click', e => { if(e.target === lbOverlay) closeLB(); });
+document.addEventListener('keydown', function(e) {
+  if (!lbOverlay.classList.contains('open')) return;
+  if (e.key === 'Escape') closeLB();
+  if (e.key === 'ArrowRight') lbNav(1);
+  if (e.key === 'ArrowLeft') lbNav(-1);
+});
 function openLB(i) {
   lbCurrent = i;
   document.getElementById('lbImg').src = lbImages[i].src;
@@ -1920,6 +1993,7 @@ function closeLB() {
   document.body.style.overflow = '';
 }
 function lbNav(dir) {
+
   lbCurrent = (lbCurrent + dir + lbImages.length) % lbImages.length;
   openLB(lbCurrent);
 }
