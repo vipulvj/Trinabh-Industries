@@ -1,46 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- MAIN PAGES -->
-  <url><loc>https://trinabhindustries.co.in/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://trinabhindustries.co.in/about</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/founder</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-kitchens</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-wardrobes</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/office-furniture</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/study-units</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/tv-units</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/pooja-units</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/</loc><lastmod>2026-05-11</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://trinabhindustries.co.in/about</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/founder</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-kitchens</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-wardrobes</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-furniture</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/study-units</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/tv-units</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/pooja-units</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <!-- LOCATION PAGES -->
-  <url><loc>https://trinabhindustries.co.in/office-interior-ghaziabad</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/office-interior-noida</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/office-interior-gurgaon</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-furniture-indirapuram</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/office-interior-connaught-place</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <!-- LOCATION PAGES -->
-  <url><loc>https://trinabhindustries.co.in/modular-kitchen-noida</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-furniture-vasundhara</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-furniture-vaishali</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-furniture-raj-nagar</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-furniture-greater-noida</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/modular-furniture-south-delhi</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/office-interior-faridabad</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-ghaziabad</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-noida</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-gurgaon</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-indirapuram</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-connaught-place</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-kitchen-noida</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-vasundhara</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-vaishali</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-raj-nagar</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-greater-noida</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/modular-furniture-south-delhi</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/office-interior-faridabad</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <!-- BLOG -->
-  <url><loc>https://trinabhindustries.co.in/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/office-interior-cost-delhi-ncr</loc><lastmod>2025-04-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/modular-vs-carpenter</loc><lastmod>2025-03-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/office-setup-cost-noida-gurgaon</loc><lastmod>2025-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/office-design-trends-india</loc><lastmod>2025-05-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/benefits-modular-workstations</loc><lastmod>2025-06-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- NEW BLOG ARTICLES -->
-  <url><loc>https://trinabhindustries.co.in/blog/modular-kitchen-cost-noida-2026</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/acrylic-vs-laminate-kitchen</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/hettich-vs-blum-hardware</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/wardrobe-cost-per-sqft-delhi-ncr</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/10-mistakes-before-buying-modular-kitchen</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/how-modular-kitchens-are-manufactured</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/best-modular-kitchen-designs-apartments</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/office-interior-cost-complete-guide-2026</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/luxury-kitchen-trends-2026</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trinabhindustries.co.in/blog/factory-made-vs-carpenter-kitchen</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog</loc><lastmod>2026-05-11</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-interior-cost-delhi-ncr</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/modular-vs-carpenter</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-setup-cost-noida-gurgaon</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-design-trends-india</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/benefits-modular-workstations</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/modular-kitchen-cost-noida-2026</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/acrylic-vs-laminate-kitchen</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/hettich-vs-blum-hardware</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/wardrobe-cost-per-sqft-delhi-ncr</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/10-mistakes-before-buying-modular-kitchen</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/how-modular-kitchens-are-manufactured</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/best-modular-kitchen-designs-apartments</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/office-interior-cost-complete-guide-2026</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/luxury-kitchen-trends-2026</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trinabhindustries.co.in/blog/factory-made-vs-carpenter-kitchen</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
